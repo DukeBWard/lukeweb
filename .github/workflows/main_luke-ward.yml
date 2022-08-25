@@ -53,4 +53,4 @@ jobs:
           app-name: 'luke-ward'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DC404ED83F3F4112A3C1BADBC37020F3 }}
-          package: .
+          package: '/lukeweb/src'
