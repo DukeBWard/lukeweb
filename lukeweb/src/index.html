@@ -1,234 +1,308 @@
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Luke Ward</title>
-            <script src="assets/luke.js" type="module"></script>
-            <link rel="icon" type="image/x-icon" href="favicon.ico">
-            <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
-            <link href='style.css' rel='stylesheet'>
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-            <script src="https://kit.fontawesome.com/4f8a520376.js" crossorigin="anonymous"></script>
+<!DOCTYPE html>
+<html lang="en">
 
-        </head>
-        <body>
-            <header>
-                <nav class="navbar is-fixed-top has-background-grey-light ">
-                    <div class="navbar-brand">
-                        <a class="navbar-item has-text-info-dark has-text-weight-semibold" script="window.scrollTo(0,0)" href="#top">
-                        Luke Ward</a>
-                        <a class="navbar-burger mt-4" id="burger">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </a>
-                    </div>
-            
-                <div class="navbar-menu" id=nav-links>
-                    <div class="navbar-end">
-                        <a class="navbar-item has-text-info-dark" href="#bio">Bio</a>
-                        <a class="navbar-item has-text-info-dark"  href="#work">Work</a>
-                        <a class="navbar-item has-text-info-dark" href="#projects">Projects</a>
-                        <a class="navbar-item has-text-info-dark"  href="#gallery">Gallery</a>
-                        <a class="navbar-item has-text-info-dark" script="window.scrollTo(0,0)" href="#top">Contact</a>
-                    </div>
-                </div>
-                </nav>
-                </header>
-                        <div id="contact" class="columns is-centered m-6">
-                            <div class="column is-one-quarter mt-5">
-                                <img class="rcorners" src="assets/profphoto2.JPG" alt="Luke Photo" >
-                            </div>
-                            <div class="column is-one-quarter mt-5">
-                                <h2 class="title is-3 has-text-info-dark">Luke Ward</h2>
-                                <h3 class="title is-4 has-text-info-dark">Full Stack & Back End Developer</h3>
-                                <ul class="m-3">
-                                    <li><i class="fas fa-envelope"></i><a class="has-text-info-dark" href="mailto:wardlukeb@gmail.com"> wardlukeb@gmail.com</a></li>
-                                    <li><i class="fas fa-brands fa-github"></i><a class="has-text-info-dark" href="https://github.com/DukeBWard"> DukeBWard</a></li>
-                                    <li><i class="fas fa-brands fa-linkedin"></i><a class="has-text-info-dark" href="https://www.linkedin.com/in/luke-ward-172075173/"> Luke Ward</a></li>
-                                    <li><i class="fas fa-phone"></i><a class="has-text-info-dark" href="tel:6033622783"> Cell Phone</a></li>
-                                </ul>
-                            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luke Ward</title>
+    <script src="assets/luke.js" type="module"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+    <link href='style.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/4f8a520376.js" crossorigin="anonymous"></script>
 
-                        </div>
+</head>
 
-                        <div id="bio" class="columns is-centered m-2">
-                        <div class="column is-two-thirds">
-                            <h2 class="title is-4 has-text-info-dark">
-                                🚀 Welcome to my website!
-                            </h2>
-                            <p>
-                                Hey, my name's Luke Ward and I'm an undergraduate B.S. Computer Science student at Rochester Institute of technology (R.I.T).  I like making stuff and putting it on the internet. (and talking a lot)
-                                <br>
-                                <br>
-                                I've spent a lot of my time working with computer, mentoring and tutorting students, and spending time outdoors.  
-                                Throughout all of my life I've been interested in technology, from gaming to building my own Personal Computer and other side projects just out of curiosity.  
-                                Now, I am always working on a small project alongside my rigorous course work to keep my curious mind sated.
-                                <br>
-                                I'm currently looking for a Software Engineering/Development Co-op, willing to relocate anywhere.<br>
-                            </p>
-                            </div>
-                        </div>
-
-
-                        <div class="columns is-centered m-2">
-                            <div class="column is-one-third mb-6">
-                                <h2 class="title is-4 has-text-info-dark">Software and Programming Skills</h2>
-                            <ul class="m-2">
-                                <li>- Programming skills in Java ☕️, Python 🐍, Angular, HTML, CSS, C/C#</li>
-                                <li>- Knowledge of multiple CSS frameworks</li>
-                                <li>- Experience with Docker containers and AKS Kubernetes</li>
-                                <li>- CI/CD Experience with Jenkins and GitHub Action</li>
-                                <li>- Agile and DevOp methodologies</li>
-                            </ul>
-                        </div>
-                            <div class="column is-one-third mb-6">
-                            <a class= "title is-4 has-text-info-dark" href="assets/LukeWardResume11.pdf" target="_blank">Click here to view my resume</a>
-                            <a href="assets/LukeWardResume11.pdf" target="_blank"><img src="assets/ResumePic.png" alt="resume photo" class="ml-6 mt-6" style="max-width: 50%;"></a> 
-                        </div>
-
-                    </div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <div id="preloader">
+        <div id="container" class="container-preloader">
+            <div class="animation-preloader">
+                <div class="spinner"></div>
+                <div class="txt-loading">
+                    <span preloader-text="L" class="characters">L</span>
                     
-                    <div class="columns is-centered m-2">
-                        <div class="column is-two-thirds">
-                            <h2 class="title is-4 has-text-info-dark">🏆 Accomplishments & Extracurriculars</h2>
-                            <ul class="m-2 mb-6">
-                                <li>- Fall 2020 Dean's List</li>
-                                <li>- Spring 2021 Dean's List</li>
-                                <li>- 3.67 GPA</li>
-                                <li>- Computer Exploration Ambassador</li>
-                                <li>- Society of Software Engineers</li>
-                                <li>- Hackathon participant</li>
-                            </ul>
-                        </div>
-                    </div>
+                    <span preloader-text="U" class="characters">U</span>
+                    
+                    <span preloader-text="K" class="characters">K</span>
+                    
+                    <span preloader-text="E" class="characters">E</span>
+                    
+                    <span class="characters"> </span>
+                    
+                    <span preloader-text="W" class="characters">W</span>
+                    
+                    <span preloader-text="A" class="characters">A</span>
+                    
+                    <span preloader-text="R" class="characters">R</span>
+                    
+                    <span preloader-text="D" class="characters">D</span>
                 </div>
-
-                <div id="work" class="columns is-centered">
-                    <div class="column is-one-third m-3">
-                        <img src="assets/fidelity.jpg" class="rounded" alt="Fidelity" width="250" height="125"></a>
-                    </div>
-                    <div class="column is-one-third m-3">
-                        <h2 class="title is-4 has-text-info-dark mb-4">Professional Experience</h2>
-                        <h3 class="title is-6 has-text-info-dark">Fidelity Investments - Full Stack Developer Co-op</h3>
-                        <h3 class="subtitle is-6 has-text-info-dark">(Summer 2020)</h3>
-                        <p>Collaborated with small scrum team to develop and maintain an internal facing test data service. Directly impacted user experience by implementing accessibility features which lead to more interactions by Data Scientists. Developed in a full stack manner, utilizing technologies such as Angular and Java Spring alongside custom MySQL queries. Deployed application on Azure Kubernetes (AKS) cluster using Jenkins CI/CD pipeline</p>
-                    </div>
-                </div>
-
-                <div class="columns is-centered">
-                    <div class="column is-one-third m-3">
-                        <img src="assets/camp.jpeg" class="rcorners" alt="Camp" width="250" height="125"></a>
-                    </div>
-                    <div class="column is-one-third m-3">
-                        <h3 class="title is-6 has-text-info-dark">YMCA Camp Lincoln - Waterfront Director</h3>
-                        <h3 class="subtitle is-6 has-text-info-dark">(2018 - 2021)</h3>
-                        <p>I supervised multiple Lifeguards, Counselors and Counselors in Training at the waterfront. I also created and maintained a new safety standard that was compliant to new Federal and State legislation due to the COVID-19 pandemic. I gained this promotion to Waterfront Director based on superior performance as Counselor and Cabin Lead.</p>
-                    </div>
-                </div>
-
-                <div class="columns is-centered">
-                    <div class="column is-one-third m-3">
-                        <img src="assets/rit.png" class="rounded" alt="RIT" width="250" height="125"></a>
-                    </div>
-                    <div class="column is-one-third m-3">
-                        <h3 class="title is-6 has-text-info-dark">Rochester Institute of Technology - Course Assistant</h3>
-                        <h3 class="subtitle is-6 has-text-info-dark">(2021 - 2022)</h3>
-                        <p>I am able to assist students in Intro to Software Engineering with course work, helped tutor and mentor multiple sections. I also host scheduled meetings to help students with homework and projects. This job has allowed me to acquire grading skills, and improvement in leadership and giving constructive feedback.</p>
-                    </div>
-                </div>
-
-                <div id="projects" class="columns is-centered">
-                    <div class="column is-one-third m-3">
-                        <h2 class="title is-4 has-text-info-dark mb-4">My Latest Work</h2>
-                        <h3 class="title is-6 has-text-info-dark">Modular Synthesizer</h3>
-                        <p> This project was created by myself and two other teammates for Brickhack 8 hackathon.
-                            We were able to utilize a very low-level channel library in order to control the magnets within our machine's speakers.
-                            This gave us great control with our modularity, creating multiple modules to change the sound of the note and record sound.
-                            Written in C# with basic front-end ui. 
-                            </p>
-                    </div>
-                    <div class="column is-one-third m-3">
-                            <img src="assets/original.png" alt="Modular Synthesizer" width="500"></a>
-                    </div>
-                </div>
-
-                <div class="columns is-centered">
-                    <div class="column is-one-third m-3 mb-6">
-                        <h3 class="title is-6 has-text-info-dark">Roommate Tinder 🧱</h3>
-                        <p> Collaborated with a team of 3 to brainstorm an idea with RIT students to better the roommate finding experience.  
-                            MongoDB and Google Cloud services to store images and requests for users.  
-                            Worked front and back end; used Node.js, express.js, HTML, and SCSS.  
-                            </p>
-                    </div>
-                    <div class="column is-one-third m-3 mb-6">
-                            <img class= "rounded" src="assets/tinder.png" alt="Roommate Tinder" width="250" height="125"></a>
-                    </div>
-                </div>
-
-
-                <div id="gallery" class="columns is-centered">
-                    <div class="column is-one-third m-3">
-                        <img class= "rcorners" src="assets/timberlane.png" alt="Hall pass" width="250" height="125"></a>
-                    </div>
-                    <div class="column is-one-third m-3">
-                        <h2 class="title is-4 has-text-info-dark  mb-4">Gallery of Past Projects</h2>
-                    <h3 class="title is-6 has-text-info-dark">Hall Pass 📝</h3>
-                    <p>
-                        Collaborated with a team of 4 to design a software-enabled hall pass with smart functionality.  
-                        Integrated Arduino code with time stamps, logging of users, image of school map, touchscreen functionality.  
-                        Documented progress daily with a paragraph of in-depth analysis and photos of code.  
-                    </p>
-                    </div>
-                    </div>
-                </div>
-                    <div class="columns is-centered">
-                    <div class="column is-one-third m-3">
-                    <img src="assets/discord.png" alt="Discord bot" width="250" height="125"></a>
-                    </div>
-                    <div class="column is-one-third m-3">
-                    <h3 class="title is-6 has-text-info-dark">Discord Bot 🤖</h3>
-                    <p>Created Discord bot that allowed users to play music, moderate chat, and make changes to the server.  
-                        Analyzed and integrated Discord and YouTube open source library in order to implement music feature.  
-                        Developed bot in Python using PyCharm IDE.  
-                    </p>
-                    </div>
-                </div>
-                <div class="columns is-centered">
-                <div class="column is-one-third m-3">
-                <img class= "rounded" src="assets/dict.jpg" alt="Python dictionary" width="250" height="125">
-            </div>
-            <div class="column is-one-third m-3">
-                <h3 class="title is-6 has-text-info-dark">Python Dictionary 🐍</h3>
-                <p> Developed Python Dictionary that allows users to search for vocabulary words and provides definitions.  
-                    Utilized open source library to build a text file of words and their definitions.  
-                    Increased Python knowledge through self studying: specifically using Regular Expressions (RegEx).  
-                    </p>
-
-
-                    </div>
-            </div>
-
-
-        
+            </div>	
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
         </div>
+    </div>	
+<body>
+    <header>
+        <nav class="navbar is-fixed-top has-background-grey-light ">
+            <div class="navbar-brand">
+                <a class="navbar-item has-text-info-dark has-text-weight-semibold" script="window.scrollTo(0,0)"
+                    href="#top">
+                    <img src="favicon.ico">
+                    Luke Ward</a>
+                <a class="navbar-burger mt-4" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+
+            <div class="navbar-menu" id=nav-links>
+                <div class="navbar-end">
+                    <a class="navbar-item has-text-info-dark" href="#bio">Bio</a>
+                    <a class="navbar-item has-text-info-dark" href="#work">Work</a>
+                    <a class="navbar-item has-text-info-dark" href="#projects">Projects</a>
+                    <a class="navbar-item has-text-info-dark" href="#gallery">Gallery</a>
+                    <a class="navbar-item has-text-info-dark" href="#wip">W.I.P</a>
+                    <a class="navbar-item has-text-info-dark" script="window.scrollTo(0,0)" href="#top">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="contact" class="columns is-centered m-6">
+        <div class="column is-one-quarter mt-5">
+            <a href="https://www.linkedin.com/in/luke-ward-172075173/" target="_blank"><img class="rcorners"
+                    src="assets/profphoto2.JPG" alt="Luke Photo"></a>
+        </div>
+        <div class="column is-one-quarter mt-5">
+            <h2 class="title is-3 has-text-info-dark">Luke Ward</h2>
+            <h3 class="title is-4 has-text-info-dark">Software Engineer</h3>
+            <ul class="m-3">
+                <li><i class="fas fa-envelope"></i><a class="has-text-info-dark" href="mailto:wardlukeb@gmail.com">
+                        wardlukeb@gmail.com</a></li>
+                <li><i class="fas fa-brands fa-github"></i><a class="has-text-info-dark"
+                        href="https://github.com/DukeBWard"> DukeBWard</a></li>
+                <li><i class="fas fa-brands fa-linkedin"></i><a class="has-text-info-dark"
+                        href="https://www.linkedin.com/in/luke-ward-172075173/"> Luke Ward</a></li>
+                <li><i class="fas fa-phone"></i><a class="has-text-info-dark" href="tel:6033622783"> Cell Phone</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div id="bio" class="columns is-centered m-2">
+        <div class="column is-two-thirds">
+            <h2 class="title is-4 has-text-info-dark">
+                🚀 Welcome to my website! <a href="old-luke-ward.html">(legacy site)</a>
+            </h2>
+            <p>
+                Hey, my name's Luke Ward and I'm an undergraduate B.S. Computer Science student at Rochester Institute
+                of technology (R.I.T). I like making stuff and putting it on the internet. (and talking a lot)
+                <br>
+                <br>
+                I've spent a lot of my time working with computer, mentoring and tutorting students, and spending time
+                outdoors.
+                Throughout all of my life I've been interested in technology, from gaming to building my own Personal
+                Computer and other side projects just out of curiosity.
+                Now, I am always working on a small project alongside my rigorous course work to keep my curious mind
+                sated.
+                <br>
+                I'm currently looking for a Software Engineering/Development Co-op, willing to relocate anywhere.<br>
+            </p>
+        </div>
+    </div>
+
+
+    <div class="columns is-centered m-2">
+        <div class="column is-one-third mb-6">
+            <h2 class="title is-4 has-text-info-dark">Software and Programming Skills</h2>
+            <ul class="m-2">
+                <li>- Programming skills in Java ☕️, Python 🐍, Angular, HTML, CSS, C/C#</li>
+                <li>- Knowledge of multiple CSS frameworks</li>
+                <li>- Experience with Docker containers and AKS Kubernetes</li>
+                <li>- CI/CD Experience with Jenkins and GitHub Action</li>
+                <li>- Agile and DevOp methodologies</li>
+            </ul>
+        </div>
+        <div class="column is-one-third mb-6">
+            <h2 class="title is-4 has-text-info-dark">Click here to
+                view my resume (2/2/2023)</h2>
+            <a href="assets/LukeWardResume11.pdf" target="_blank"><img src="assets/ResumePic.png" alt="resume photo"
+                    class="ml-6 mt-6" style="max-width: 50%;"></a>
+        </div>
+
+    </div>
+
+    <div class="columns is-centered m-2">
+        <div class="column is-two-thirds">
+            <h2 class="title is-4 has-text-info-dark">🏆 Accomplishments & Extracurriculars</h2>
+            <ul class="m-2 mb-6">
+                <li>- Fall 2020 Dean's List</li>
+                <li>- Spring 2021 Dean's List</li>
+                <li>- 3.67 GPA</li>
+                <li>- Computer Exploration Ambassador</li>
+                <li>- Society of Software Engineers</li>
+                <li>- Hackathon participant</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+
+    <div id="work" class="columns is-centered">
+        <div class="column is-one-third m-3">
+            <img src="assets/fidelity.jpg" class="rounded" alt="Fidelity" width="250" height="125"></a>
+        </div>
+        <div class="column is-one-third m-3">
+            <h2 class="title is-4 has-text-info-dark mb-4">Professional Experience</h2>
+            <h3 class="title is-6 has-text-info-dark">Fidelity Investments - Full Stack Developer Co-op</h3>
+            <h3 class="subtitle is-6 has-text-info-dark">(Summer 2020)</h3>
+            <p>Collaborated with small scrum team to develop and maintain an internal facing test data service. Directly
+                impacted user experience by implementing accessibility features which lead to more interactions by Data
+                Scientists. Developed in a full stack manner, utilizing technologies such as Angular and Java Spring
+                alongside custom MySQL queries. Deployed application on Azure Kubernetes (AKS) cluster using Jenkins
+                CI/CD pipeline</p>
+        </div>
+    </div>
+
+    <div class="columns is-centered">
+        <div class="column is-one-third m-3">
+            <img src="assets/camp.jpeg" class="rcorners" alt="Camp" width="250" height="125"></a>
+        </div>
+        <div class="column is-one-third m-3">
+            <h3 class="title is-6 has-text-info-dark">YMCA Camp Lincoln - Waterfront Director</h3>
+            <h3 class="subtitle is-6 has-text-info-dark">(2018 - 2021)</h3>
+            <p>I supervised multiple Lifeguards, Counselors and Counselors in Training at the waterfront. I also created
+                and maintained a new safety standard that was compliant to new Federal and State legislation due to the
+                COVID-19 pandemic. I gained this promotion to Waterfront Director based on superior performance as
+                Counselor and Cabin Lead.</p>
+        </div>
+    </div>
+
+    <div class="columns is-centered">
+        <div class="column is-one-third m-3">
+            <img src="assets/rit.png" class="rounded" alt="RIT" width="250" height="125"></a>
+        </div>
+        <div class="column is-one-third m-3">
+            <h3 class="title is-6 has-text-info-dark">Rochester Institute of Technology - Course Assistant</h3>
+            <h3 class="subtitle is-6 has-text-info-dark">(2021 - 2022)</h3>
+            <p>I am able to assist students in Intro to Software Engineering with course work, helped tutor and mentor
+                multiple sections. I also host scheduled meetings to help students with homework and projects. This job
+                has allowed me to acquire grading skills, and improvement in leadership and giving constructive
+                feedback.</p>
+        </div>
+    </div>
+
+    <div id="projects" class="columns is-centered">
+        <div class="column is-one-third m-3">
+            <h2 class="title is-4 has-text-info-dark mb-4">My Latest Work</h2>
+            <h3 class="title is-6 has-text-info-dark">Modular Synthesizer</h3>
+            <p> This project was created by myself and two other teammates for Brickhack 8 hackathon.
+                We were able to utilize a very low-level channel library in order to control the magnets within our
+                machine's speakers.
+                This gave us great control with our modularity, creating multiple modules to change the sound of the
+                note and record sound.
+                Written in C# with basic front-end ui.
+            </p>
+        </div>
+        <div class="column is-one-third m-3">
+            <img src="assets/original.png" alt="Modular Synthesizer" width="500"></a>
+        </div>
+    </div>
+
+    <div class="columns is-centered">
+        <div class="column is-one-third m-3 mb-6">
+            <h3 class="title is-6 has-text-info-dark">Roommate Tinder 🧱</h3>
+            <p> Collaborated with a team of 3 to brainstorm an idea with RIT students to better the roommate finding
+                experience.
+                MongoDB and Google Cloud services to store images and requests for users.
+                Worked front and back end; used Node.js, express.js, HTML, and SCSS.
+            </p>
+        </div>
+        <div class="column is-one-third m-3 mb-6">
+            <img class="rounded" src="assets/tinder.png" alt="Roommate Tinder" width="250" height="125"></a>
+        </div>
+    </div>
+
+
+    <div id="gallery" class="columns is-centered">
+        <div class="column is-one-third m-3">
+            <img class="rcorners" src="assets/timberlane.png" alt="Hall pass" width="250" height="125"></a>
+        </div>
+        <div class="column is-one-third m-3">
+            <h2 class="title is-4 has-text-info-dark  mb-4">Gallery of Past Projects</h2>
+            <h3 class="title is-6 has-text-info-dark">Hall Pass 📝</h3>
+            <p>
+                Collaborated with a team of 4 to design a software-enabled hall pass with smart functionality.
+                Integrated Arduino code with time stamps, logging of users, image of school map, touchscreen
+                functionality.
+                Documented progress daily with a paragraph of in-depth analysis and photos of code.
+            </p>
+        </div>
+    </div>
+    </div>
+
+    <div class="columns is-centered">
+        <div class="column is-one-third m-3">
+            <img src="assets/discord.png" alt="Discord bot" width="250" height="125"></a>
+        </div>
+        <div class="column is-one-third m-3">
+            <h3 class="title is-6 has-text-info-dark">Discord Bot 🤖</h3>
+            <p>Created Discord bot that allowed users to play music, moderate chat, and make changes to the server.
+                Analyzed and integrated Discord and YouTube open source library in order to implement music feature.
+                Developed bot in Python using PyCharm IDE.
+            </p>
+        </div>
+    </div>
+    <div class="columns is-centered">
+        <div class="column is-one-third m-3">
+            <img class="rounded" src="assets/dict.jpg" alt="Python dictionary" width="250" height="125">
+        </div>
+        <div class="column is-one-third m-3">
+            <h3 class="title is-6 has-text-info-dark">Python Dictionary 🐍</h3>
+            <p> Developed Python Dictionary that allows users to search for vocabulary words and provides definitions.
+                Utilized open source library to build a text file of words and their definitions.
+                Increased Python knowledge through self studying: specifically using Regular Expressions (RegEx).
+            </p>
+
+
+        </div>
+    </div>
+
+    <div class="columns is-centered">
+        <div class="column is-one-third m-3">
+            <h2 id="wip"class="title is-4 has-text-info-dark mb-4">My Work In Progress</h2>
+            <h3 class="title is-6 has-text-info-dark">RSA Messenger - MVP</h3>
+            <h3 class="title is-6 has-text-info-dark">RSA Calculator - React JS</h3>
+            <h3 class="title is-6 has-text-info-dark">Vigenere Cipher - MIPS Assembly</h3>
+        </div>
+        <div class="column is-one-third m-3">
+        </div>
+    </div>
+
+
+    </div>
 
 
     <footer class="pb-6">
         <div class="columns is-centered">
             <div class="column is-half">
-            <ul>
+                <ul>
 
-                <li style="float: left;" class="m-4"><i class="fas fa-envelope"></i><a class="has-text-info-dark" href="mailto:wardlukeb@gmail.com"> wardlukeb@gmail.com</a></li>
-                <li style="float: left;" class="m-4"><i class="fas fa-brands fa-github"></i><a class="has-text-info-dark" href="https://github.com/DukeBWard"> DukeBWard</a></li>
-                <li style="float: left;" class="m-4"><i class="fas fa-brands fa-linkedin"></i><a class="has-text-info-dark" href="https://www.linkedin.com/in/luke-ward-172075173/"> Luke Ward</a></li>
-                <li style="float: left;" class="m-4"><i class="fas fa-phone"></i><a class="has-text-info-dark" href="tel:6033622783"> Cell Phone</a></li>
-            </ul>
-            <br>
-    
-        </div>
+                    <li style="float: left;" class="m-4"><i class="fas fa-envelope"></i><a class="has-text-info-dark"
+                            href="mailto:wardlukeb@gmail.com"> wardlukeb@gmail.com</a></li>
+                    <li style="float: left;" class="m-4"><i class="fas fa-brands fa-github"></i><a
+                            class="has-text-info-dark" href="https://github.com/DukeBWard"> DukeBWard</a></li>
+                    <li style="float: left;" class="m-4"><i class="fas fa-brands fa-linkedin"></i><a
+                            class="has-text-info-dark" href="https://www.linkedin.com/in/luke-ward-172075173/"> Luke
+                            Ward</a></li>
+                    <li style="float: left;" class="m-4"><i class="fas fa-phone"></i><a class="has-text-info-dark"
+                            href="tel:6033622783"> Cell Phone</a></li>
+                </ul>
+                <br>
+
+            </div>
     </footer>
 
-    </body>
+</body>
