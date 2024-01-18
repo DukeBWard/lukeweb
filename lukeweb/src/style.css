@@ -8,6 +8,11 @@ body {
 .rounded{
     border-radius: 50%;
 }
+
+.lessrounded{
+  border-radius: 85%;
+}
+
 .rcorners{
     border-radius: 75px;
   
